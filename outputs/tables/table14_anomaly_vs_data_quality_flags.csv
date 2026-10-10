@@ -1,0 +1,6 @@
+Data_Quality_Flag,Total_Occurrences,Flagged_by_Isolation_Forest,Flagged_by_LOF,Flagged_by_Consensus,Consensus_Overlap_Pct
+negative_charging_duration_flag,1,0,1,0,0.0
+done_after_disconnect_flag,76,2,2,0,0.0
+over_delivery_flag,255,20,16,7,2.75
+missing_done_charging_flag,1573,37,36,16,1.02
+anonymous_user_flag,590,3,12,2,0.34

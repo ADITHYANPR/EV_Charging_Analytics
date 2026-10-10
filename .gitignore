@@ -1,0 +1,57 @@
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+.streamlit/secrets.toml
+
+# Streamlit Local Caches
+.streamlit/cache/
+
+# IDE and Operating System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Temporary Files and Logs
+*.tmp
+*.temp
+*.log
+~$*.docx
+
+# Exclude earlier report versions from GitHub
+EV_Charging_Analytics_Case_Study_Draft.docx
+EV_Charging_Analytics_Case_Study_Draft.pdf
+EV_Charging_Analytics_Case_Study_Final_Draft.docx
+EV_Charging_Analytics_Case_Study_Final_Draft.pdf
+EV_Charging_Analytics_Case_Study_Final_Draft_v2.docx
+EV_Charging_Analytics_Case_Study_Final_Draft_v2.pdf
+
+# Exclude temporary report-generation artifacts
+~$*.docx

@@ -1,0 +1,6 @@
+Flag_Name,Count,Treatment
+negative_charging_duration_flag,1,Floored charging duration to 0.0 with flag preserved
+done_after_disconnect_flag,76,"Flag preserved; idle duration handled as max(0, conn - charge)"
+over_delivery_flag,255,Flag preserved; energy_error_kwh calculated
+is_charging_completed == 0,1573,Flag preserved; charging_duration_hr set to NaN
+is_registered_user == 0,590,Flag preserved; user_id_clean set to 'ANONYMOUS'

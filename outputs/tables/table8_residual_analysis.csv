@@ -1,0 +1,8 @@
+Stratum_Category,Subgroup,Hours_Count,Mean_Actual_kWh,Mean_Forecast_kWh,Mean_Bias_kWh,MAE,RMSE,R2
+Overall Test Set,All Test Hours,1795,8.71,6.83,1.87,9.12,15.71,0.1158
+Demand Level,Zero-Demand Hours (y = 0),1025,0.0,4.69,-4.69,4.69,6.82,0.0
+Demand Level,Active-Demand Hours (y > 0),770,20.29,9.68,10.61,15.01,22.67,-0.2356
+Demand Level,Peak Demand (>= 59.1 kWh),39,80.21,16.88,63.33,63.33,68.75,-7.0821
+Day Type,Weekdays (Mon–Fri),1267,9.48,7.33,2.16,9.41,16.52,0.134
+Day Type,Weekends (Sat–Sun),528,6.84,5.65,1.19,8.43,13.57,0.0192
+Time Window,Weekday Morning Commute Peak (08:00–12:00),212,22.52,15.47,7.05,17.68,27.56,0.0046

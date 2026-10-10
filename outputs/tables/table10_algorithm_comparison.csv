@@ -1,0 +1,7 @@
+Metric,Value
+Isolation Forest Outliers Count,150
+Local Outlier Factor Outliers Count,150
+Consensus Overlap Count,33
+Union Outliers Count,267
+Jaccard Similarity Index,0.1236
+Overall Binary Agreement Pct,95.32%

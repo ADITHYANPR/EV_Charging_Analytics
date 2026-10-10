@@ -1,0 +1,13 @@
+Feature,Normal_Median,Normal_IQR,Anomaly_Median,Anomaly_IQR,Ratio_Anomaly_to_Normal
+kWhDelivered,6.3,11.06,30.7,16.23,4.87
+connection_duration_hr,2.46,5.38,6.07,13.12,2.47
+charging_duration_hr,1.53,1.44,4.19,3.12,2.74
+idle_duration_hr,1.28,4.42,9.26,11.05,7.23
+average_charging_rate_kw,3.44,4.41,6.94,30.66,2.02
+energy_error_kwh,8.9,18.76,32.41,145.0,3.64
+delivery_ratio,0.46,0.46,0.42,0.74,0.92
+idle_to_connection_ratio,0.44,0.71,0.67,0.59,1.52
+conn_hour,11.0,6.0,18.0,8.0,1.64
+minutesAvailable,410.0,300.0,600.0,965.0,1.46
+milesRequested,70.0,70.0,200.0,442.5,2.86
+WhPerMile,310.0,114.0,274.0,165.0,0.88

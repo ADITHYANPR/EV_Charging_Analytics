@@ -1,0 +1,4 @@
+Metric_Level,Total_MWh,Mean_kWh,Std_kWh,Median_kWh,P95_kWh,Max_kWh,Zero_Demand_Hours,Zero_Demand_Pct
+"Hourly (All Continuous Hours, n=14400)",53.669,3.721,11.235,0.0,26.572,179.932,11413,79.14
+Hourly (Active Demand Hours Only),53.669,17.836,18.795,11.541,53.55,179.932,0,0.0
+Daily Total Aggregation,53.669,89.151,99.206,56.425,288.633,490.293,153,25.42

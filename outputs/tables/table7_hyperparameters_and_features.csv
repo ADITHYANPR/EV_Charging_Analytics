@@ -1,0 +1,6 @@
+Model,Type,Hyperparameters,Features_Used
+Seasonal_Naive_24h,Baseline,seasonal_period=24 (persistence: y(t)=y(t-24)),lag_24
+Seasonal_Naive_168h,Baseline,seasonal_period=168 (persistence: y(t)=y(t-168)),lag_168
+Ridge_Regression,Linear,"alpha=10.0, StandardScaler, random_state=42",All 22 features
+Random_Forest,Ensemble,"n_estimators=100, max_depth=12, min_samples_split=4, min_samples_leaf=2, random_state=42",All 22 features
+XGBoost,Gradient Boosted Trees,"n_estimators=120, max_depth=5, learning_rate=0.08, subsample=0.8, colsample_bytree=0.8, random_state=42",All 22 features

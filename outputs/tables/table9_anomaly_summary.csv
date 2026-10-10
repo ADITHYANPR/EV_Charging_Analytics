@@ -1,0 +1,5 @@
+Method,Sessions_Flagged,Flagged_Pct,Contamination_Setting,Score_Metric
+Isolation Forest,150,3.0,0.03,Path Isolation Depth
+Local Outlier Factor (LOF),150,3.0,0.03,Local Reachability Density
+Consensus (Both Flagged),33,0.66,Intersection,Dual-Method Agreement
+Union (Either Flagged),267,5.34,Union,Ensemble Boundary
